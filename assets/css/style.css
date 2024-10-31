@@ -1,0 +1,682 @@
+/*
+|-----------------------------------------------------------------------
+|  General CSS
+|-----------------------------------------------------------------------
+*/
+body,
+html {
+    height: 100%;
+    width: 100%
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    clear: both;
+    color: #505050;
+    padding: 0;
+    margin-bottom: 10px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 27px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+p {
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #606060;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+a, span {
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active,
+button,
+button:active,
+button:focus,
+button:hover,
+button:visited {
+    text-decoration: none;
+    outline: none;
+}
+
+a,
+input,
+select,
+textarea,
+.single-main-feature,
+.feature-icon:before,
+.feature-icon {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-header {
+    margin-bottom: 65px
+}
+
+/*
+|-----------------------------------------------------------------------
+|  Pricing Table 1
+|-----------------------------------------------------------------------
+*/
+.pricing-table-1 {
+    background-color: #fafafa;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgb(96, 96, 96);
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.pricing-table-1 .section-header h2 {
+    margin: 0;
+    color: #404040;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0px;
+}
+
+.pricing-table-1 .single-price-table {
+    background-color: #fff;
+    padding-bottom: 38px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(35, 39, 43, 0.2);
+    box-shadow: 0px 0px 3px 0px rgba(35, 39, 43, 0.2);
+}
+
+.pricing-table-1 .price-title {
+    background: -webkit-linear-gradient(left, rgba(40, 224, 216, 0.8) 0%, rgba(103, 58, 183, 0.8) 100%);
+    background: -o-linear-gradient(left, rgba(40, 224, 216, 0.8) 0%, rgba(103, 58, 183, 0.8) 100%);
+    background: linear-gradient(to right, rgba(40, 224, 216, 0.8) 0%, rgba(103, 58, 183, 0.8) 100%);
+    margin: 0;
+    letter-spacing: 0.5px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 28px 15px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.pricing-table-1 .price {
+    font-size: 36px;
+    font-weight: 700;
+    padding: 30px 10px 16px;
+    position: relative;
+    color: #404040;
+}
+
+.pricing-table-1 .price:before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    background-color: #505050;
+    left: 50%;
+    margin-left: -25%;
+    bottom: 0;
+}
+
+.pricing-table-1 .price span {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 7px;
+    line-height: 16px;
+}
+
+.pricing-table-1 .price-feature {
+    list-style: none;
+    padding: 30px 15px;
+    margin: 0;
+}
+
+.pricing-table-1 .price-feature li {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.pricing-table-1 .price-feature li:last-child {
+    margin-bottom: 0;
+}
+
+.pricing-table-1 .price-btn {
+    background: -webkit-linear-gradient(left, rgba(40, 224, 216, 0.8) 0%, rgba(103, 58, 183, 0.8) 100%);
+    background: -o-linear-gradient(left, rgba(40, 224, 216, 0.8) 0%, rgba(103, 58, 183, 0.8) 100%);
+    background: linear-gradient(to right, rgba(40, 224, 216, 0.8) 0%, rgba(103, 58, 183, 0.8) 100%);
+    border-radius: 5px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 16px 32px;
+    line-height: 20px;
+    outline: none;
+    border: none;
+    letter-spacing: 0.5px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.pricing-table-1 .single-price-table:hover,
+.pricing-table-1 .single-price-table.special {
+    -webkit-box-shadow: 0px 8px 14.85px 0.15px rgba(35, 39, 43, 0.25);
+    box-shadow: 0px 8px 14.85px 0.15px rgba(35, 39, 43, 0.25);
+}
+
+.pricing-table-1 .single-price-table:hover .price-title,
+.pricing-table-1 .single-price-table.special .price-title {
+    background: -webkit-linear-gradient(left, rgb(40, 224, 216) 0%, rgb(103, 58, 183) 100%);
+    background: -o-linear-gradient(left, rgb(40, 224, 216) 0%, rgb(103, 58, 183) 100%);
+    background: linear-gradient(to right, rgb(40, 224, 216) 0%, rgb(103, 58, 183) 100%);
+}
+
+.pricing-table-1 .price-btn:hover,
+.pricing-table-1 .single-price-table.special .price-btn {
+    background: -webkit-linear-gradient(left, rgb(40, 224, 216) 0%, rgb(103, 58, 183) 100%);
+    background: -o-linear-gradient(left, rgb(40, 224, 216) 0%, rgb(103, 58, 183) 100%);
+    background: linear-gradient(to right, rgb(40, 224, 216) 0%, rgb(103, 58, 183) 100%);
+}
+
+
+/*
+|-----------------------------------------------------------------------
+|  Pricing Table 2
+|-----------------------------------------------------------------------
+*/
+
+.pricing-table-2 {
+    background-color: #f8f9fc;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pricing-table-2 .section-header span {
+    color: #555;
+    background: #fff;
+    box-shadow: 0px 10px 50px rgba(2, 31, 123, .12);
+    padding: 6px 26px 6px 26px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pricing-table-2 .single-price-table {
+    margin-bottom: 30px;
+    padding: 0 30px 30px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, .10);
+    transition: all .20s linear;
+    position: relative;
+    background-color: #fff;
+}
+
+.pricing-table-2 .single-price-table:before {
+    content: "";
+    position: absolute;
+    height: 208px;
+    width: 208px;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -46%) scale(.8);
+    border-radius: 50%;
+    background: -moz-linear-gradient(45deg, rgba(20, 70, 234, 1) 0%, rgba(3, 220, 236, 1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(20, 70, 234, 1) 0%, rgba(3, 220, 236, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(20, 70, 234, 1) 0%, rgba(3, 220, 236, 1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(20, 70, 234, 1) 0%, rgba(3, 220, 236, 1) 100%);
+    background: linear-gradient(45deg, rgba(20, 70, 234, 1) 0%, rgba(3, 220, 236, 1) 100%);
+    transform-origin: top;
+    transition: all .30s linear;
+    opacity: 0;
+    visibility: hidden;
+    perspective: 400
+}
+
+.pricing-table-2 .single-price-table .circle-shape {
+    height: 208px;
+    width: 208px;
+    background: #edf1fd;
+    left: 50%;
+    transform-origin: top;
+    transition: all .30s linear;
+    transform: translate(-50%, -46%) scale(1);
+}
+
+.pricing-table-2 .single-price-table h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    transition: all .30s linear;
+    line-height: 1.2;
+}
+
+.pricing-table-2 .text-active {
+    color: #1447ea;
+}
+
+.pricing-table-2 .pricing-table-top p {
+    letter-spacing: 1px;
+    line-height: 22px;
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+
+.pricing-table-2 .single-price-table h4 {
+    border-bottom: 1px solid #edf1fd;
+    padding-top: 30px;
+    color: #353535;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.pricing-table-2 .single-price-table ul li {
+    color: #7c8295;
+    margin-bottom: 14px;
+}
+
+.pricing-table-2 .single-price-table ul li i {
+    color: #1447ea;
+    font-size: 16px;
+}
+
+.pricing-table-2 .single-price-table ul li span {
+    display: inline-block;
+}
+
+.pricing-table-2 .single-price-table .price-btn {
+    padding: 8px 40px 8px 40px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    position: relative;
+    z-index: 9;
+    border-radius: 30px;
+    background: transparent;
+    display: inline-block;
+    box-shadow: none;
+    letter-spacing: 1.2px;
+    border: 1px solid #1447ea;
+    line-height: 1.5;
+}
+
+.pricing-table-2 .single-price-table .price-btn:before {
+    content: "";
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    position: absolute;
+    background: -moz-linear-gradient(45deg, rgba(20, 70, 234, 1) 0%, rgba(3, 220, 236, 1) 88%, rgba(3, 220, 236, 1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(20, 70, 234, 1) 0%, rgba(3, 220, 236, 1) 88%, rgba(3, 220, 236, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(20, 70, 234, 1) 0%, rgba(3, 220, 236, 1) 88%, rgba(3, 220, 236, 1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(20, 70, 234, 1) 0%, rgba(3, 220, 236, 1) 88%, rgba(3, 220, 236, 1) 100%);
+    background: linear-gradient(45deg, rgba(20, 70, 234, 1) 0%, rgba(3, 220, 236, 1) 88%, rgba(3, 220, 236, 1) 100%);
+    border-radius: 50px;
+    top: -1px;
+    left: -1px;
+    z-index: -1;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .30s linear;
+}
+
+.pricing-table-2 .single-price-table.special,
+.pricing-table-2 .single-price-table:hover {
+    box-shadow: 0px 10px 60px rgba(2, 31, 123, .15);
+}
+
+.pricing-table-2 .single-price-table.special:before,
+.pricing-table-2 .single-price-table:hover:before {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-50%, -46%) scale(1);
+}
+
+.pricing-table-2 .single-price-table.special .circle-shape,
+.pricing-table-2 .single-price-table:hover .circle-shape {
+    transform: translate(-50%, -46%) scale(1.5);
+    opacity: 0;
+}
+
+.pricing-table-2 .single-price-table.special h2,
+.pricing-table-2 .single-price-table.special p,
+.pricing-table-2 .single-price-table:hover h2,
+.pricing-table-2 .single-price-table:hover p {
+    color: #fff;
+}
+
+.pricing-table-2 .single-price-table.special .price-btn,
+.pricing-table-2 .single-price-table:hover .price-btn {
+    color: #ffffff;
+    border-color: transparent;
+}
+
+.pricing-table-2 .single-price-table.special .price-btn:before,
+.pricing-table-2 .single-price-table:hover .price-btn:before {
+    visibility: visible;
+    opacity: 1;
+    z-index: -1;
+}
+
+/*
+|-----------------------------------------------------------------------
+|  Pricing Table 3
+|-----------------------------------------------------------------------
+*/
+.pricing-table-3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #606060;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.pricing-table-3 .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pricing-table-3 .section-header h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.pricing-table-3 .single-price-table {
+    background-color: #FAFAFA;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 30px;
+}
+
+.pricing-table-3 .single-price-table.special {
+    background-color: #F3F3F3;
+    padding: 50px 20px;
+}
+
+.pricing-table-3 .single-price-table span:not(.month) {
+    font-size: 45px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.pricing-table-3 .single-price-table h2{
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.pricing-table-3 .single-price-table h3 {
+    font-size: 38px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 5px;
+}
+.pricing-table-3 .single-price-table .month {
+    font-size: 15px;
+    color: #505050;
+    text-transform: lowercase;
+}
+.pricing-table-3 .single-price-table ul {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.pricing-table-3 .single-price-table ul li {
+    margin-bottom: 10px;
+}
+
+.pricing-table-3 .single-price-table ul li i {
+    margin-right: 4px;
+}
+
+.pricing-table-3 .single-price-table .price-btn {
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #fff;
+    padding: 6px 20px;
+    border: 1px solid #3c3c3c;
+    transition: all 0.4s ease;
+}
+
+.pricing-table-3 .single-price-table.special .price-btn,
+.pricing-table-3 .single-price-table.special .price-btn,
+.pricing-table-3 .single-price-table .price-btn:hover,
+.pricing-table-3 .single-price-table .price-btn:focus {
+    background-color: #3c3c3c;
+    color: #fff;
+}
+
+
+/*
+|-----------------------------------------------------------------------
+|  Pricing Table 4
+|-----------------------------------------------------------------------
+*/
+.pricing-table-4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #BBBBBB;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    background-color: #171717;
+}
+
+.pricing-table-4 .section-header h2 {
+    margin: 0;
+    font-size: 28px;
+    width: 100%;
+    z-index: 1;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 5px;
+    color: #fff;
+    bottom: 5px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.pricing-table-4 .single-price-table {
+    background-color: rgba(204, 204, 204, 0.1);
+    padding: 40px 0;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.pricing-table-4 .single-price-table .price-overlay {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    background-color: transparent;
+}
+
+.pricing-table-4 .single-price-table .price-overlay:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 136%;
+    width: 50%;
+    background: transparent;
+    transform: skew(0deg, 14deg);
+    border-bottom: 2px solid #E54148;
+}
+
+.pricing-table-4 .single-price-table .price-overlay:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 136%;
+    width: 50%;
+    background: transparent;
+    transform: skew(0deg, -14deg);
+    border-bottom: 2px solid #E54148;
+}
+
+.pricing-table-4 .pricing-table-top {
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.pricing-table-4 .pricing-table-top h4 {
+    margin: 0;
+    font-size: 1.6em;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.pricing-table-4 .pricing-table-top p {
+    margin: 0;
+    font-weight: 700;
+    color: #fff;
+    font-size: 1.667em;
+}
+
+.pricing-table-4 .pricing-table-4 .pricing-table-top p span {
+    vertical-align: text-top;
+    font-size: 16px;
+}
+
+.pricing-table-4 .pricing-table-top .month {
+    margin-left: 3px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;  
+}
+
+.pricing-table-4 .price-feature {
+    margin-bottom: 50px;
+}
+
+.pricing-table-4 .price-feature ul li {
+    margin-bottom: 25px;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'Dosis', sans-serif;
+}
+
+.pricing-table-4 .price-btn {
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 5px 25px;
+    border-radius: 5px;
+    transition: all .4s;
+    color: #fff;
+    letter-spacing: 2px;
+    border: 2px solid #E54148;
+    font-family: 'Dosis', sans-serif;
+    background-color: transparent;
+}
+
+.pricing-table-4 .single-price-table.special .price-overlay,
+.pricing-table-4 .single-price-table.special .price-overlay:before,
+.pricing-table-4 .single-price-table.special .price-overlay:after,
+.pricing-table-4 .single-price-table:hover .price-overlay,
+.pricing-table-4 .single-price-table:hover .price-overlay:before,
+.pricing-table-4 .single-price-table:hover .price-overlay:after {
+    background-color: #E54148;
+}
+
+.pricing-table-4 .single-price-table.special .price-btn,
+.pricing-table-4 .single-price-table .price-btn:hover {
+    background-color: #E54148;
+    color: #fff;
+}
+
+/*
+|-----------------------------------------------------------------------
+|  Responsive CSS
+|-----------------------------------------------------------------------
+*/
+
+@media screen and (max-width:768px) {
+
+    .pricing-table-4 .single-price-table .price-overlay:before,
+    .pricing-table-4 .single-price-table .price-overlay:after {
+        width: 50.5%;
+    }
+}
